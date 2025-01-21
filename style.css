@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,900;1,900&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("ASSETS/background.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1100px, 100vw);
+    position: relative;
+}
+
+.main .box {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    opacity: 0.59;
+    position: absolute;
+    top: 0;
+}
+
+nav img {
+    padding-top: 10px;
+    color: rgb(255, 0, 0);
+    position: relative;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    max-width: 80vw;
+    /*it will take 90% of the screen*/
+    padding-top: 10px;
+    margin: auto;
+    /* it will align the center of the screen*/
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.text {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.text span {
+    color: white;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 70px;
+    font-style: normal;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight:400 ;
+    color: white;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight:500 ;
+    color: white;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
